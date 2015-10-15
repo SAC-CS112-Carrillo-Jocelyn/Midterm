@@ -41,11 +41,12 @@ public class PlayerGuessEvenPercentage {
 					JOptionPane.showMessageDialog(null, "You guessed wrong. :<");
 				
 				
-				//will output: times played, # of times user guessed even,& like to play again?
+			
 				guessEvenPercent=guessEven/roundsPlayed;//#of times user guessed even, in percent
+				//will output: times played, # of times user guessed even,& like to play again?
 				message= String.format("You've played %d games.\n"
 						+ "You have guessed even %d percent of the time.\n"
-						+ "Would you like to play again? Yes=y or No=n", roundsPlayed,guessEvenPercent);
+						+ "Would you like to play again? Yes=y or No=n",roundsPlayed,guessEvenPercent);
 				roundsPlayed++;//add to rounds
 				
 				//Ask if they will PlayAgain? & do logic for it

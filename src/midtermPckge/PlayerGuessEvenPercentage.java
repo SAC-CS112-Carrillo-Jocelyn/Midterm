@@ -35,14 +35,11 @@ public class PlayerGuessEvenPercentage {
 				}
 				
 				if(d==remainder)
-				{
 					JOptionPane.showMessageDialog(null, "You guessed correctly!");
 					
-				}
 				else
-				{
 					JOptionPane.showMessageDialog(null, "You guessed wrong. :<");
-				}
+				
 				
 				//PlayAgain?
 				guessEvenPercent=guessEven/roundsPlayed;//User guessed even percentage
@@ -55,9 +52,8 @@ public class PlayerGuessEvenPercentage {
 				
 				if(likeToPlayAgain.toLowerCase().equals("y")
 						||likeToPlayAgain.toLowerCase().equals("yes"))
-				{
 					playAgain=true;
-				}
+					
 				else
 					playAgain=false;
 			}
